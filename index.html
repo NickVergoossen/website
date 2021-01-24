@@ -1,38 +1,16 @@
-
-<h1>opdracht school</h1>
-<div style="color: blue">
-<p>kleur aanpassen.</p>
-</div>
-<html>
-    <body>
-        <p>foto plaatsen.</p>
-        <img src="http://placekitten.com/200/300">
-    </body>
-</html>
-<html>
-    <body>
-        <style>
-        p {
-            color: green;
-        }
-            border-radius: 25% 10%;
-        elem {
-  width: 200px;
-  height: 200px;
-  background: #FFA14F;
-  border-width: 8px;
-  border-style: inset;
-}
-font-size:150%;
-p{
-  font-family: "Times New Roman", Georgia, Serif;
-}
-div{
-  box-shadow: 10px 10px 5px #888888;
-}
-        </style>
-        <p>groen stuk tekst.</p>
-    </body>
-</html>
-
-
+<form>
+        <label>thuisploeg</label>
+        <input type="text" name="thuisploeg">
+        <label>gastploeg</label>
+        <input type="tekst" name="gastploeg">
+        <input type="number" min="0" max="100" name="score thuisploeg">
+        <input type="number" min="0" max="100" name="score gastploeg">
+        <input type="datum" name="datum wedstrijd">
+        <select name="klasse">
+          <option value="p">profesioneel</option>
+          <option value="o">oefenwedstrijd</option>
+          <option value="v">vriendelijke match</option>
+          <option value="t">toernooi</option>
+        </select>
+        <input type="submit" value="Verstuur">
+</form>
